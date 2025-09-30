@@ -1,0 +1,39 @@
+/* Stili per il calendario liturgico */
+#calendario-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.giorno-calendario {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.giorno-calendario.domenica {
+    background-color: #f0f0f0;
+}
+
+.giorno-calendario .numero-giorno {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.giorno-calendario .santo {
+    font-size: 0.8em;
+    color: #666;
+}
+
+.giorno-calendario .tempo-liturgico-ordinario { background-color: #4caf50; color: white; }
+.giorno-calendario .tempo-liturgico-festa { background-color: #f44336; color: white; }
+
+/* Responsive */
+@media (max-width: 768px) {
+    #calendario-container {
+        grid-template-columns: 1fr;
+    }
+}

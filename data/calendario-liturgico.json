@@ -1,0 +1,37 @@
+{
+  "2025-09": {
+    "mese": "Settembre 2025",
+    "giorni": [
+      { "giorno": 1, "santo": "Sant'Egidio", "tempo_liturgico": "Ordinario" },
+      { "giorno": 2, "santo": "Sant'Elpidio", "tempo_liturgico": "Ordinario" },
+      { "giorno": 3, "santo": "San Gregorio Magno", "tempo_liturgico": "Ordinario" },
+      { "giorno": 4, "santo": "Santa Rosalia", "tempo_liturgico": "Ordinario" },
+      { "giorno": 5, "santo": "San Lorenzo Giustiniani", "tempo_liturgico": "Ordinario" },
+      { "giorno": 6, "santo": "San Zaccaria", "tempo_liturgico": "Ordinario" },
+      { "giorno": 7, "santo": "Santa Regina", "tempo_liturgico": "Ordinario", "domenica": true },
+      { "giorno": 8, "santo": "Natività della Beata Vergine Maria", "tempo_liturgico": "Festa" },
+      { "giorno": 9, "santo": "San Pietro Claver", "tempo_liturgico": "Ordinario" },
+      { "giorno": 10, "santo": "San Nicola da Tolentino", "tempo_liturgico": "Ordinario" },
+      { "giorno": 11, "santo": "San Diomede", "tempo_liturgico": "Ordinario" },
+      { "giorno": 12, "santo": "Santissimo Nome di Maria", "tempo_liturgico": "Ordinario" },
+      { "giorno": 13, "santo": "San Giovanni Crisostomo", "tempo_liturgico": "Ordinario" },
+      { "giorno": 14, "santo": "Esaltazione della Santa Croce", "tempo_liturgico": "Festa", "domenica": true },
+      { "giorno": 15, "santo": "Beata Vergine Maria Addolorata", "tempo_liturgico": "Ordinario" },
+      { "giorno": 16, "santo": "Santi Cornelio e Cipriano", "tempo_liturgico": "Ordinario" },
+      { "giorno": 17, "santo": "Santa Ildegarda di Bingen", "tempo_liturgico": "Ordinario" },
+      { "giorno": 18, "santo": "San Giuseppe da Copertino", "tempo_liturgico": "Ordinario" },
+      { "giorno": 19, "santo": "San Gennaro", "tempo_liturgico": "Ordinario" },
+      { "giorno": 20, "santo": "Santi Andrea Kim Taegon, Paolo Chong Hasang e compagni", "tempo_liturgico": "Ordinario" },
+      { "giorno": 21, "santo": "San Matteo", "tempo_liturgico": "Festa", "domenica": true },
+      { "giorno": 22, "santo": "San Maurizio", "tempo_liturgico": "Ordinario" },
+      { "giorno": 23, "santo": "San Pio da Pietrelcina", "tempo_liturgico": "Ordinario" },
+      { "giorno": 24, "santo": "San Pacifico", "tempo_liturgico": "Ordinario" },
+      { "giorno": 25, "santo": "San Cleofa", "tempo_liturgico": "Ordinario" },
+      { "giorno": 26, "santo": "Santi Cosma e Damiano", "tempo_liturgico": "Ordinario" },
+      { "giorno": 27, "santo": "San Vincenzo de' Paoli", "tempo_liturgico": "Ordinario" },
+      { "giorno": 28, "santo": "San Venceslao", "tempo_liturgico": "Ordinario", "domenica": true },
+      { "giorno": 29, "santo": "Santi Michele, Gabriele e Raffaele", "tempo_liturgico": "Festa" },
+      { "giorno": 30, "santo": "San Girolamo", "tempo_liturgico": "Ordinario" }
+    ]
+  }
+}

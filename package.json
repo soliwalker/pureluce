@@ -1,0 +1,31 @@
+{
+  "name": "puraluce",
+  "version": "1.0.0",
+  "description": "Fedele Messaggero - Fuoco nel corpo · Presenza nel giorno · Regno nella carne",
+  "main": "public/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"Building assets...\" && npm run minify:css && npm run minify:js",
+    "minify:css": "echo \"Minifying CSS...\"",
+    "minify:js": "echo \"Minifying JS...\"",
+    "deploy": "bash scripts/deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_USERNAME/puraluce.git"
+  },
+  "keywords": [
+    "spirituality",
+    "catholic",
+    "meditation",
+    "lectio-divina"
+  ],
+  "author": "Fedele Messaggero",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/puraluce/issues"
+  },
+  "homepage": "https://puraluce.it",
+  "dependencies": {},
+  "devDependencies": {}
+}

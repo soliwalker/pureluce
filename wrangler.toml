@@ -1,0 +1,16 @@
+name = "puraluce-fedele-messaggero"
+compatibility_date = "2023-10-26"
+
+pages_build_output_dir = "public"
+
+[[kv_namespaces]]
+binding = "PAGINE_SACRE"
+id = "y6e90ef4de1a44cb3b1a2294d7f168124"
+
+[[kv_namespaces]]
+binding = "EMAIL_SUBS"
+id = "ca3e5457710c4ac89f6bd7d08d3685ff"
+
+[[kv_namespaces]]
+binding = "CACHE"
+id = "25578df0079746d494dddf878b2ce33c"

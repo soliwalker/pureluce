@@ -73,19 +73,8 @@ else
 fi
 
 # Deploy a Pages (asset statici)
-log "Deploy degli asset statici su Cloudflare Pages..."
+log "Deploy degli asset statici e dei workers su Cloudflare Pages..."
 wrangler pages deploy public --project-name=$PROJECT_NAME
-
-# Deploy dei Workers
-log "Deploy dei Cloudflare Workers..."
-
-log "ATTENZIONE: Assicurati di aver creato i seguenti namespace KV nel tuo account Cloudflare e di aver inserito gli ID corretti in 'wrangler.toml':"
-log "- PAGINE_SACRE"
-log "- EMAIL_SUBS"
-log "- CACHE"
-
-wrangler deploy workers/api.js --name puraluce-api
-wrangler deploy workers/newsletter.js --name puraluce-newsletter
 
 success "Deploy su Cloudflare completato."
 

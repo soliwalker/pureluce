@@ -5,7 +5,8 @@
   "main": "public/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "echo \"Building assets...\" && npm run minify:css && npm run minify:js",
+    "prebuild": "mkdir -p public/functions",
+    "build": "echo \"Building assets...\" && cp workers/* public/functions/ && npm run minify:css && npm run minify:js",
     "minify:css": "echo \"Minifying CSS...\"",
     "minify:js": "echo \"Minifying JS...\"",
     "deploy": "bash scripts/deploy.sh"
